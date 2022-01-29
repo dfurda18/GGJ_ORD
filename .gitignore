@@ -61,3 +61,9 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+BetweenHevenAndHell/Assets/Images/TitlePage/Background.png.meta
+BetweenHevenAndHell/Assets/Images/TitlePage/Credits (TitleScreen).png.meta
+BetweenHevenAndHell/Assets/Images/TitlePage/ExitGame (TitleScreen).png.meta
+BetweenHevenAndHell/Assets/Images/TitlePage/GameName (TitleScreen).png.meta
+BetweenHevenAndHell/Assets/Images/TitlePage/Start Game (TitleScreen).png.meta
+*.meta

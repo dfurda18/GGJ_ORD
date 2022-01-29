@@ -11,10 +11,13 @@ public class Player : MonoBehaviour
     private Rigidbody2D rigid;
     public bool  isJumping;
 
+    public Animator anim;
+
     // Start is called before the first frame update
     void Start()
     {
         rigid = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -22,6 +25,7 @@ public class Player : MonoBehaviour
     {
        PlayerMovements();
        Jump();
+     
     }
 
     void PlayerMovements()
@@ -40,6 +44,8 @@ public class Player : MonoBehaviour
         if(inputAxis < 0){
             transform.eulerAngles = new Vector2(0f, 180f);
         }
+        anim.SetFloat("Speed", Mathf.Abs(inputAxis));
+       
     }
 
     

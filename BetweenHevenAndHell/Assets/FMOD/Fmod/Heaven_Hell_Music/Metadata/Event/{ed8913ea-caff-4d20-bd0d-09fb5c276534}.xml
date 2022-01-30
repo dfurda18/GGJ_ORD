@@ -612,6 +612,7 @@ Transition-hell
         </property>
         <relationship name="automationCurves">
             <destination>{40bb9e37-178a-4e7d-9fd5-d7492245ff1e}</destination>
+            <destination>{e4595a66-6878-4de5-9819-a0763e5aff31}</destination>
         </relationship>
     </object>
     <object class="MixerBusEffectChain" id="{105753ed-c03b-4c5f-91a0-da7cff42f970}">
@@ -834,6 +835,15 @@ Transition-hell
             <destination>{0061e095-067a-4571-b489-d4a7734ebb85}</destination>
         </relationship>
     </object>
+    <object class="AutomationCurve" id="{e4595a66-6878-4de5-9819-a0763e5aff31}">
+        <relationship name="parameter">
+            <destination>{b5abf396-7993-4be7-b905-2e9dc86911e5}</destination>
+        </relationship>
+        <relationship name="automationPoints">
+            <destination>{63320125-edd5-4bbd-b0da-13ef70457679}</destination>
+            <destination>{8c085f58-4274-4e5b-9b68-22a0799841cf}</destination>
+        </relationship>
+    </object>
     <object class="MixerBusFader" id="{5191b5c2-2a1d-4986-be06-6e970ce62f5f}"/>
     <object class="AutomationPoint" id="{27692fee-9bae-47de-86eb-7816f8fa9c84}">
         <property name="position">
@@ -999,6 +1009,25 @@ Transition-hell
         </property>
         <property name="curveShape">
             <value>-0.324850738</value>
+        </property>
+    </object>
+    <object class="AutomationPoint" id="{63320125-edd5-4bbd-b0da-13ef70457679}">
+        <property name="position">
+            <value>48.966942148760324</value>
+        </property>
+        <property name="value">
+            <value>0</value>
+        </property>
+    </object>
+    <object class="AutomationPoint" id="{8c085f58-4274-4e5b-9b68-22a0799841cf}">
+        <property name="position">
+            <value>27.066115702479348</value>
+        </property>
+        <property name="value">
+            <value>-80</value>
+        </property>
+        <property name="curveShape">
+            <value>-0.0321311578</value>
         </property>
     </object>
     <object class="AutomationPoint" id="{f1b10905-5825-4fe6-aac1-d31e83b5a303}">

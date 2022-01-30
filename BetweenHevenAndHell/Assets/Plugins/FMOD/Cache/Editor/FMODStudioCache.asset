@@ -15,10 +15,58 @@ MonoBehaviour:
   Path: Assets/FMOD/Fmod/Heaven_Hell_Music/Build/Desktop/Master Bank.bank
   Name: Master Bank
   StudioPath: bank:/Master Bank
-  lastModified: 637791426289787708
+  lastModified: 637791483808460329
   FileSizes:
   - Name: Desktop
-    Value: 3923648
+    Value: 3924000
+  Exists: 1
+--- !u!114 &-6921738979626903739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music/Hell
+  m_EditorClassIdentifier: 
+  Name: Hell
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 948053896
+    data2: 3162383946
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-3138196366000853860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music/Heaven
+  m_EditorClassIdentifier: 
+  Name: Heaven
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 2060571940
+    data2: 4110967574
+  Type: 0
+  IsGlobal: 0
+  Labels: []
   Exists: 1
 --- !u!114 &-1401046388698948508
 MonoBehaviour:
@@ -35,7 +83,7 @@ MonoBehaviour:
   Path: Assets/FMOD/Fmod/Heaven_Hell_Music/Build/Desktop/Master Bank.strings.bank
   Name: Master Bank.strings
   StudioPath: bank:/Master Bank.strings
-  lastModified: 637791426289796052
+  lastModified: 637791483808471031
   FileSizes:
   - Name: Desktop
     Value: 716
@@ -62,7 +110,7 @@ MonoBehaviour:
   - {fileID: -9175824259405218630}
   StringsBanks:
   - {fileID: -1401046388698948508}
-  cacheTime: 637791426289796052
+  cacheTime: 637791483808471031
   cacheVersion: 10
 --- !u!114 &2209593002642927312
 MonoBehaviour:
@@ -89,6 +137,8 @@ MonoBehaviour:
   IsOneShot: 0
   Parameters:
   - {fileID: 3086964024651789355}
+  - {fileID: -3138196366000853860}
+  - {fileID: -6921738979626903739}
   MinDistance: 0
   MaxDistance: 0
   Length: 307767
@@ -102,9 +152,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Music/Stages
+  m_Name: parameter:/Music/title
   m_EditorClassIdentifier: 
-  Name: Stages
+  Name: title
   StudioPath: 
   Min: 0
   Max: 100

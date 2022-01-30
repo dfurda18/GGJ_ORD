@@ -594,6 +594,12 @@ MonoBehaviour:
   Params:
   - Name: Stages
     Value: 60
+  - Name: title
+    Value: 60
+  - Name: Heaven
+    Value: 60
+  - Name: Hell
+    Value: 60
   OverrideAttenuation: 0
   OverrideMinDistance: 0
   OverrideMaxDistance: 0
@@ -2904,6 +2910,8 @@ MonoBehaviour:
   Params:
   - Name: Stages
     Value: 55
+  - Name: title
+    Value: 35
   OverrideAttenuation: 0
   OverrideMinDistance: 0
   OverrideMaxDistance: 0

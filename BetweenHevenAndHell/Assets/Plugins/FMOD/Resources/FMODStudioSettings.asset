@@ -472,8 +472,8 @@ MonoBehaviour:
   SwitchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: Assets/FMOD/Fmod/Heaven_Hell_Music/Heaven_Hell_Music.fspro
-  sourceBankPath: Assets/FMOD/Fmod/Heaven_Hell_Music/Build
+  sourceProjectPath: 
+  sourceBankPath: 
   SourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1
@@ -495,8 +495,7 @@ MonoBehaviour:
   VirtualChannelSettings: []
   RealChannelSettings: []
   Plugins: []
-  MasterBanks:
-  - Master Bank
+  MasterBanks: []
   Banks: []
   BanksToLoad: []
   LiveUpdatePort: 9264

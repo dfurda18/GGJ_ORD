@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{2ce75506-a35c-4cf3-874c-3c0d3b2fd9d2}">
+        <property name="assetPath">
+            <value>heaven_transition_choir_o.wav</value>
+        </property>
+        <property name="isStreaming">
+            <value>true</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>96</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>10.8214375</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{d9578b4b-ff62-4fe3-9a06-0bff0be05b09}</destination>
+        </relationship>
+    </object>
+</objects>

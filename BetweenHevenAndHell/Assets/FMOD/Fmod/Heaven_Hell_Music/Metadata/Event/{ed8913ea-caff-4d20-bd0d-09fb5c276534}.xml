@@ -445,7 +445,7 @@ Transition-hell
     </object>
     <object class="NamedMarker" id="{51b30a2f-d085-423b-9fcc-3504d75d5751}">
         <property name="position">
-            <value>185</value>
+            <value>186</value>
         </property>
         <property name="name">
             <value>Hell</value>
@@ -459,10 +459,10 @@ Transition-hell
     </object>
     <object class="TransitionRegion" id="{2cfbecfe-acfe-4490-8735-7bb390e288ec}">
         <property name="position">
-            <value>192</value>
+            <value>186</value>
         </property>
         <property name="length">
-            <value>115.76786458333331</value>
+            <value>121.76786458333331</value>
         </property>
         <property name="quantizationInterval">
             <value>1</value>
@@ -511,7 +511,7 @@ Transition-hell
             <value>60</value>
         </property>
         <property name="quantizationInterval">
-            <value>1</value>
+            <value>8</value>
         </property>
         <relationship name="triggerConditions">
             <destination>{f2a28288-eb85-4f01-b6c8-40bdc4cef63c}</destination>
@@ -528,10 +528,10 @@ Transition-hell
     </object>
     <object class="TransitionRegion" id="{cf04d33f-695b-4d87-a967-f527fc610c9d}">
         <property name="position">
-            <value>73.652397338530918</value>
+            <value>68</value>
         </property>
         <property name="length">
-            <value>234.1154672448024</value>
+            <value>239.76786458333333</value>
         </property>
         <property name="quantizationInterval">
             <value>1</value>

@@ -5,16 +5,16 @@ using UnityEngine.UI;
 
 public class ExitGame : MonoBehaviour
 {
-    private Button ExitGameButton;
+    private Button exitGameButton;
     // Start is called before the first frame update
     void Start()
     {
-        ExitGameButton = this.gameObject.GetComponent<Button>();
-        ExitGameButton.onClick.AddListener(ExitClicked);
+        exitGameButton = this.gameObject.GetComponent<Button>();
+        exitGameButton.onClick.AddListener(ExitClicked);
 
     }
 
-    void ExitClicked()
+    public void ExitClicked()
     {
         Application.Quit();
     }

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{fef5583d-97ab-418c-907e-7a44d5a4c8ff}">
+        <property name="assetPath">
+            <value>title_mix_01.wav</value>
+        </property>
+        <property name="isStreaming">
+            <value>true</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>96</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>60</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{d9578b4b-ff62-4fe3-9a06-0bff0be05b09}</destination>
+        </relationship>
+    </object>
+</objects>

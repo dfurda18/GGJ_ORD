@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{4700a665-95a5-4723-bc87-8a0cf1148c5d}">
+        <property name="assetPath">
+            <value>hell_transition_choir_o.wav</value>
+        </property>
+        <property name="isStreaming">
+            <value>true</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>96</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>13.714291666666666</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{d9578b4b-ff62-4fe3-9a06-0bff0be05b09}</destination>
+        </relationship>
+    </object>
+</objects>

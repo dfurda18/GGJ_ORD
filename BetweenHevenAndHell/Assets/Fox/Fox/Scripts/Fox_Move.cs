@@ -10,8 +10,10 @@ public class Fox_Move : MonoBehaviour {
     private Animator anim;
 	private SpriteRenderer sp;
 	private float rateOfHit;
+	private float rateOfWarp;
 	private GameObject[] life;
 	private int qtdLife;
+	public LevelSwtich switchLevel;
 
 	// Use this for initialization
 	void Start () {
@@ -24,8 +26,10 @@ public class Fox_Move : MonoBehaviour {
 		jumping=false;
 		crouching=false;
 		rateOfHit=Time.time;
-		life=GameObject.FindGameObjectsWithTag("Life");
-		qtdLife=life.Length;
+		rateOfWarp = Time.time;
+		life =GameObject.FindGameObjectsWithTag("Life");
+		qtdLife = 1;//life.Length;
+		switchLevel = GetComponent<LevelSwtich>();
 	}
 	
 	// Update is called once per frame
@@ -80,7 +84,7 @@ public class Fox_Move : MonoBehaviour {
 
 	void Jump(){
 		//Jump
-		if(Input.GetKeyDown(KeyCode.X)&&rb.velocity.y==0){
+		if(Input.GetKeyDown(KeyCode.Space)&&rb.velocity.y==0){
 			rb.AddForce(new Vector2(0,jumpForce));
 
 		}
@@ -115,10 +119,23 @@ public class Fox_Move : MonoBehaviour {
 	}
 
 	void Special(){
-		if(Input.GetKey(KeyCode.Space)){
+		if(Input.GetKey(KeyCode.X)){
 			anim.SetBool("Special",true);
-		}else{
+			if (rateOfWarp < Time.time)
+			{
+				switchLevel.SwitchLevel();
+				rateOfWarp = Time.time + cooldownHit;
+
+            }
+            else
+            {
+		
+			}
+			
+		}
+		else{
 			anim.SetBool("Special",false);
+			rateOfWarp = 0;
 		}
 	}
 

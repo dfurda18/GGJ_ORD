@@ -3,19 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ExitGame : MonoBehaviour
+public class StartButton : MonoBehaviour
 {
     private Button exitGameButton;
     // Start is called before the first frame update
     void Start()
     {
         exitGameButton = this.gameObject.GetComponent<Button>();
-        exitGameButton.onClick.AddListener(ExitClicked);
+        exitGameButton.onClick.AddListener(StartLevel);
 
     }
 
-    public void ExitClicked()
+    public void StartLevel()
     {
-        Application.Quit();
+        
     }
 }

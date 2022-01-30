@@ -25,8 +25,6 @@ public class Player : MonoBehaviour
     {
        PlayerMovements();
        Jump();
-    
-     
     }
 
     void PlayerMovements()
@@ -57,7 +55,7 @@ public class Player : MonoBehaviour
             rigid.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
         }
 
-        if(isJumping){
+        if(Input.GetButtonDown("Jump")){
              anim.SetBool("isJumpingAnim", true);
         }else{
              anim.SetBool("isJumpingAnim", false);

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.01.10.00">
-    <object class="ParameterPreset" id="{6f14937d-08b3-4f08-a056-2e7a4b51f0b5}">
+    <object class="ParameterPreset" id="{190dc5c8-9c85-4e48-b086-eafbaa06394c}">
         <property name="name">
-            <value>title</value>
+            <value>Hell</value>
         </property>
         <relationship name="folder">
             <destination>{6201fcfb-52dc-4d96-b8ec-2cb06f957fa4}</destination>
         </relationship>
         <relationship name="parameter">
-            <destination>{b5abf396-7993-4be7-b905-2e9dc86911e5}</destination>
+            <destination>{7533067f-085e-4a97-baa8-27fe2ff2069b}</destination>
         </relationship>
     </object>
-    <object class="GameParameter" id="{b5abf396-7993-4be7-b905-2e9dc86911e5}">
+    <object class="GameParameter" id="{7533067f-085e-4a97-baa8-27fe2ff2069b}">
         <property name="maximum">
             <value>100</value>
         </property>
@@ -19,7 +19,7 @@
             <value>0</value>
         </property>
         <property name="seekSpeed">
-            <value>26</value>
+            <value>28</value>
         </property>
     </object>
 </objects>

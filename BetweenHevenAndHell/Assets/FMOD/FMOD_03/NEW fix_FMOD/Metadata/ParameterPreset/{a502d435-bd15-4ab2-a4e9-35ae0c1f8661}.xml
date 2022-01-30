@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="ParameterPreset" id="{a502d435-bd15-4ab2-a4e9-35ae0c1f8661}">
+        <property name="name">
+            <value>Stages</value>
+        </property>
+        <relationship name="folder">
+            <destination>{94a1fcba-cb0f-4394-a92b-76500890cb1f}</destination>
+        </relationship>
+        <relationship name="parameter">
+            <destination>{857df7bc-4854-4598-8d8a-c956ac1752a5}</destination>
+        </relationship>
+    </object>
+    <object class="GameParameter" id="{857df7bc-4854-4598-8d8a-c956ac1752a5}">
+        <property name="maximum">
+            <value>100</value>
+        </property>
+        <property name="initialValue">
+            <value>0</value>
+        </property>
+        <property name="seekSpeed">
+            <value>14</value>
+        </property>
+    </object>
+</objects>

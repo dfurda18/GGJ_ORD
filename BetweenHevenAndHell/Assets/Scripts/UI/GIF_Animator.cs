@@ -10,13 +10,13 @@ public class GIF_Animator : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        imageToAnimate = GetComponent<Image>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        imageToAnimate = GetComponent<Image>();
+        
         imageToAnimate.sprite = animatedImages[(int)(Time.time*10)%animatedImages.Length];
 
     }

@@ -53,8 +53,6 @@ Transition-hell
         </relationship>
         <relationship name="parameters">
             <destination>{8b27e44d-836d-4e06-89eb-9c4f154ded11}</destination>
-            <destination>{e2575be7-f059-47c1-b602-63c33e47c652}</destination>
-            <destination>{6b4c70d9-b757-4fb3-b6d6-b631ec40cb8c}</destination>
         </relationship>
         <relationship name="banks">
             <destination>{ecfe928f-f8db-46f2-8459-0963a9defa33}</destination>
@@ -163,16 +161,6 @@ Transition-hell
     <object class="ParameterProxy" id="{8b27e44d-836d-4e06-89eb-9c4f154ded11}">
         <relationship name="preset">
             <destination>{b5abf396-7993-4be7-b905-2e9dc86911e5}</destination>
-        </relationship>
-    </object>
-    <object class="ParameterProxy" id="{e2575be7-f059-47c1-b602-63c33e47c652}">
-        <relationship name="preset">
-            <destination>{7533067f-085e-4a97-baa8-27fe2ff2069b}</destination>
-        </relationship>
-    </object>
-    <object class="ParameterProxy" id="{6b4c70d9-b757-4fb3-b6d6-b631ec40cb8c}">
-        <relationship name="preset">
-            <destination>{3a93f986-93cb-4005-a9b7-f07d4a93aa3d}</destination>
         </relationship>
     </object>
     <object class="EventMixerMaster" id="{4c1ca91d-40f5-4eb9-8657-1bfc94d9a287}">

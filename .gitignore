@@ -60,7 +60,14 @@ sysinfo.txt
 
 # Crashlytics generated file
 crashlytics-build.properties
-
+BetweenHevenAndHell/Assets/Dan.meta
+BetweenHevenAndHell/Assets/Dan.meta
+BetweenHevenAndHell/Assets/Dan.meta
+BetweenHevenAndHell/Assets/Dan/dan.jpg.meta
+BetweenHevenAndHell/Assets/Images.meta
+BetweenHevenAndHell/Assets/Images/TitlePage.meta
+BetweenHevenAndHell/Assets/Images/TitlePage/NBVupYX5.png.meta
+BetweenHevenAndHell/Assets/Music.meta
 BetweenHevenAndHell/Assets/Images/TitlePage/Background.png.meta
 BetweenHevenAndHell/Assets/Images/TitlePage/Credits (TitleScreen).png.meta
 BetweenHevenAndHell/Assets/Images/TitlePage/ExitGame (TitleScreen).png.meta
@@ -69,3 +76,6 @@ BetweenHevenAndHell/Assets/Images/TitlePage/Start Game (TitleScreen).png.meta
 *.meta
 BetweenHevenAndHell/UserSettings/EditorUserSettings.asset
 *.asset
+
+BetweenHevenAndHell/Assets/Images/TitlePage/NBVupYX5.png.meta
+*.meta

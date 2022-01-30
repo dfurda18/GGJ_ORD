@@ -87,7 +87,7 @@ MonoBehaviour:
       Value: 0
       HasValue: 0
     Overlay:
-      Value: 1
+      Value: 0
       HasValue: 1
     Logging:
       Value: 0
@@ -472,12 +472,12 @@ MonoBehaviour:
   SwitchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: Assets/FMOD/Fmod/Heaven_Hell_Music/Heaven_Hell_Music.fspro
-  sourceBankPath: Assets/FMOD/Fmod/Heaven_Hell_Music/Build
+  sourceProjectPath: Assets/FMOD/Fmod/Heaven_Hell_Music/Project2/Heaven_Hell_Music_02.fspro
+  sourceBankPath: Assets/FMOD/Fmod/Heaven_Hell_Music/Project2/Build
   SourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1
-  AutomaticEventLoading: 1
+  AutomaticEventLoading: 0
   BankLoadType: 0
   AutomaticSampleLoading: 0
   EncryptionKey: 
@@ -485,7 +485,7 @@ MonoBehaviour:
   TargetAssetPath: FMODBanks
   TargetBankFolder: 
   EventLinkage: 0
-  LoggingLevel: 2
+  LoggingLevel: 0
   SpeakerModeSettings: []
   SampleRateSettings: []
   LiveUpdateSettings: []

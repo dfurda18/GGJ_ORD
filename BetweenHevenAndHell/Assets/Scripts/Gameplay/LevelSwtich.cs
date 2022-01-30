@@ -15,7 +15,7 @@ public class LevelSwtich : MonoBehaviour
     }
 
     // Update is called once per frame
-    void SwitchLevel()
+    public void SwitchLevel()
     {
         if (heaven)
         {

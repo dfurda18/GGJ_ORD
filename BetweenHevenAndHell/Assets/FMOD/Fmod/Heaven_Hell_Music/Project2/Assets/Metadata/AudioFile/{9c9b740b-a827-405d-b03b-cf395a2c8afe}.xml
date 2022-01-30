@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{9c9b740b-a827-405d-b03b-cf395a2c8afe}">
+        <property name="assetPath">
+            <value>heaven_mix_01.wav</value>
+        </property>
+        <property name="isStreaming">
+            <value>true</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>96</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>89.678572916666667</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{d9578b4b-ff62-4fe3-9a06-0bff0be05b09}</destination>
+        </relationship>
+    </object>
+</objects>
